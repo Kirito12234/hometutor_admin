@@ -115,7 +115,7 @@ export default function AdminCourseDetailPage() {
               <button className="btn-outline" onClick={() => loadCourse(true)} type="button">
                 {refreshing ? "Refreshing..." : "Refresh"}
               </button>
-              <Link href="/courses" className="btn-outline">Back to Courses</Link>
+              <Link href="/dashboard" className="btn-outline">Back to Dashboard</Link>
             </div>
           </div>
 
